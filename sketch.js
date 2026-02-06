@@ -30,7 +30,7 @@ function setup() {
 }
  
 function draw() {
-  background(51);
+  clear(); // fundo transparente [web:187]
  
   for (var i = 0; i < vehicles.length; i++) {
     var v = vehicles[i];
